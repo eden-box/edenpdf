@@ -1,4 +1,4 @@
-from pylovepdf.tools.validatepdfa import ValidatePdfA
+from edenpdf.tools.validatepdfa import ValidatePdfA
 
 t = ValidatePdfA('public_key', verify_ssl=True)
 t.add_file('pdf_file')

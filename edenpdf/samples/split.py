@@ -1,4 +1,4 @@
-from pylovepdf.tools.split import Split
+from edenpdf.tools.split import Split
 
 t = Split('public_key', verify_ssl=True)
 t.add_file('pdf_file')

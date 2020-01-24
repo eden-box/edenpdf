@@ -12,4 +12,3 @@ from .tools.split import Split
 from .tools.unlock import Unlock
 from .tools.validatepdfa import ValidatePdfA
 from .tools.watermark import Watermark
-

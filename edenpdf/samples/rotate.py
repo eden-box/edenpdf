@@ -1,4 +1,4 @@
-from pylovepdf.tools.rotate import Rotate
+from edenpdf.tools.rotate import Rotate
 
 t = Rotate('public_key', verify_ssl=True)
 t.add_file('pdf_file')

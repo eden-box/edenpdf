@@ -1,4 +1,4 @@
-from pylovepdf.ilovepdf import ILovePdf
+from edenpdf.ilovepdf import ILovePdf
 
 ilovepdf = ILovePdf('public_key', verify_ssl=True)
 task = ilovepdf.new_task('compress')

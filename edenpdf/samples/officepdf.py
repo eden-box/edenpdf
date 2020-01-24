@@ -1,4 +1,4 @@
-from pylovepdf.tools.officepdf import OfficeToPdf
+from edenpdf.tools.officepdf import OfficeToPdf
 
 t = OfficeToPdf('public_key', verify_ssl=True)
 t.add_file('pdf_file')

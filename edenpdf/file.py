@@ -33,5 +33,5 @@ class File(object):
             if getattr(self, k) and \
                     'set_metas' not in k and 'get_file_options' not in k and 'as_dict' not in k \
                     and '__' not in k and '_values' not in k:
-                yield(k, getattr(self, k))
+                yield k, getattr(self, k)
 

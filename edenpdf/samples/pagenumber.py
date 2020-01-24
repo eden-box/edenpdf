@@ -1,4 +1,4 @@
-from pylovepdf.tools.pagenumber import Pagenumber
+from edenpdf.tools.pagenumber import Pagenumber
 
 t = Pagenumber('public_key', verify_ssl=True)
 t.add_file('pdf_file')

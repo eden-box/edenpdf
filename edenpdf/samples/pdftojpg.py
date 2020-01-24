@@ -1,4 +1,4 @@
-from pylovepdf.tools.pdftojpg import PdfToJpg
+from edenpdf.tools.pdftojpg import PdfToJpg
 
 t = PdfToJpg('public_key', verify_ssl=True)
 t.add_file('pdf_file')

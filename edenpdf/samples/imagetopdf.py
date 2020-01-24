@@ -1,4 +1,4 @@
-from pylovepdf.tools.imagetopdf import ImageToPdf
+from edenpdf.tools.imagetopdf import ImageToPdf
 
 t = ImageToPdf('public_key', verify_ssl=True)
 t.add_file('pdf_file')

@@ -1,4 +1,4 @@
-from pylovepdf.tools.unlock import Unlock
+from edenpdf.tools.unlock import Unlock
 
 t = Unlock('public_key', verify_ssl=True)
 t.add_file('pdf_file')

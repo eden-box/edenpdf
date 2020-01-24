@@ -1,4 +1,4 @@
-from pylovepdf.task import Task
+from edenpdf.task import Task
 
 
 class OfficeToPdf(Task):

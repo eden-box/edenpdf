@@ -1,4 +1,4 @@
-from pylovepdf.tools.compress import Compress
+from edenpdf.tools.compress import Compress
 
 t = Compress('public_key', verify_ssl=True)
 t.add_file('pdf_file')

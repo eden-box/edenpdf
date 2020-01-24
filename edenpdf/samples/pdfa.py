@@ -1,4 +1,4 @@
-from pylovepdf.tools.pdfa import ToPdfA
+from edenpdf.tools.pdfa import ToPdfA
 
 t = ToPdfA('public_key', verify_ssl=True)
 t.add_file('pdf_file')

@@ -1,4 +1,4 @@
-from pylovepdf.tools.protect import Protect
+from edenpdf.tools.protect import Protect
 
 t = Protect('public_key', verify_ssl=True)
 t.add_file('pdf_file')

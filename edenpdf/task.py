@@ -1,8 +1,9 @@
-from pylovepdf.ilovepdf import ILovePdf
-from pylovepdf.file import File
-import re
 import os
+import re
 import uuid
+
+from edenpdf.file import File
+from edenpdf.ilovepdf import ILovePdf
 
 
 class Task(ILovePdf):

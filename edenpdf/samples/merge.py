@@ -1,4 +1,4 @@
-from pylovepdf.tools.merge import Merge
+from edenpdf.tools.merge import Merge
 
 t = Merge('public_key', verify_ssl=True)
 # two files needed

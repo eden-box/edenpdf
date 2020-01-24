@@ -1,4 +1,4 @@
-from pylovepdf.tools.watermark import Watermark
+from edenpdf.tools.watermark import Watermark
 
 t = Watermark('public_key', verify_ssl=True)
 t.add_file('pdf_file')

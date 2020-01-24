@@ -1,6 +1,6 @@
-from pylovepdf.request import Request
-
 import importlib
+
+from edenpdf.request import Request
 
 
 class ILovePdf(object):
@@ -19,7 +19,7 @@ class ILovePdf(object):
 
         :Example:
 
-            from pylovepdf.ilovepdf import ILovePdf
+            from edenpdf.ilovepdf import ILovePdf
 
             ilovepdf = ILovePdf('public_key', verify_ssl=True)
             task = ilovepdf.new_task('compress')
