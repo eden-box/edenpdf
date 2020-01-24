@@ -1,19 +1,19 @@
 [tool.poetry]
 name = "edenpdf"
-version = "1.0.2"
+version = "1.0.3"
 description = "ilovepdf.com python API library"
 
 license = "GPL-3.0-only"
 
 authors = [
-    "Andrea Bruschi <moonx2006@gmail.com>",
-    "Eden-Box <dev@edenbox.cf>"
+    "Eden-Box <dev@edenbox.cf>",
+    "Andrea Bruschi <moonx2006@gmail.com>"
 ]
 
 readme = 'README.md'
 
-repository = "https://github.com/AndyBTuttofare/pylovepdf"
-homepage = "https://github.com/AndyBTuttofare/pylovepdf"
+repository = "https://github.com/eden-box/edenpdf"
+homepage = "https://github.com/eden-box/edenpdf"
 
 keywords = ['pdf', 'unlock', 'compress', 'manipulate', 'edit', 'protect', 'pdftojpg', 'jpgtopdf', 'pdfa']
 

@@ -12,17 +12,10 @@ This library allows pdf manipulation using the API of http://www.ilovepdf.com. S
 * [Python >3.6]
 * [Requests] (http://it.python-requests.org/it/latest/)
 
-## Installation (older version)
+## Installation
 
 ```
-pip install pylovepdf 
-```
-
-## Manual installation (up to date) 
-
-Download the latest release.
-```
-python setup.py install
+pip install edenpdf 
 ```
 
 ## Getting started
@@ -50,7 +43,7 @@ Currently the following tools are available:
 
 ## Example Usage (compress tool)
 ```python
-from pylovepdf.ilovepdf import ILovePdf
+from edenpdf.ilovepdf import ILovePdf
 
 ilovepdf = ILovePdf('public_key', verify_ssl=True)
 task = ilovepdf.new_task('compress')
@@ -64,7 +57,7 @@ task.delete_current_task()
 ## Alternative Example Usage (compress tool)
 A tool can be created directly:
 ```python
-from pylovepdf.tools.compress import Compress
+from edenpdf.tools.compress import Compress
 
 t = Compress('public_key', verify_ssl=True)
 t.add_file('pdf_file')
